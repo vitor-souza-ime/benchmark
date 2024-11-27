@@ -1,0 +1,10 @@
+1. Baixar o dataset.
+    https://drive.google.com/drive/folders/1WeY1_Ql4ZJsH01DIFtnlDYj5c_jsGL59
+
+2. Gerar 4 classes baseados nestas imagens (ball, line, post e robot)
+
+3. Aplicar o código modelo_tensorflow_02.py para gerar o modelo e fazer as predições.
+
+4. Aplicar o código modelo_pytorch_02.py para gerar o modelo e fazer as predições.
+
+5. Código para gerar imagens com ruído img_noise_01.py para testar e validar com os dois modelos gerados.

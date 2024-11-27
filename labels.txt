@@ -1,0 +1,16 @@
+A seguir o resultado de predição feito com as 8 imagens apresentadas para 60 épocas de treinamento. 
+Para cada framework foi verificado se foi identificada a imagem, confiabilidade e tempo de predição. Comente a acurácia de cada modelo também. Texto acadêmico.
+
+
+Predição
+			TensorFlow	            	PyTorch
+Bola com brilho		1(0,98) 0,15s		1 (0,93) 0,01s
+Bola sem brilho		1(0,88) 0,07s		1 (0,56) 0,01s
+Linha com brilho	1(0,76) 0,07s		1 (0,54) 0,01s
+Linha sem brilho	1(0,59) 0,07s		0 (Predição errada)
+Robô com brilho		1(1,00) 0,07s		1 (1,00) 0,01s
+Robô sem brilho		1(1,00) 0,07s		1 (0,52) 0,01s
+Poste com brilho	1(0,98)	0,07s		1 (0,98) 0,02s
+Poste sem brilho	1(0,91) 0,07s		0 (Predição errada)
+
+Acurácia		    100%		        75%
