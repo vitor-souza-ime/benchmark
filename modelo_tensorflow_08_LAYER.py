@@ -81,21 +81,23 @@ else:
     plt.figure(figsize=(12, 6))
 
     # Gráfico de perda
-    #plt.subplot(1, 2, 1)
+    plt.figure(figsize=(12, 6))
+    plt.subplot(1, 2, 1)
     plt.plot(range(1, EPOCA + 1), losses, marker='o', linestyle='-', color='r', label='Loss')
-    plt.xlabel('Época')
+    plt.xlabel('Epoch')
     plt.ylabel('Loss')
-    plt.title('Loss por Época')
+    plt.title('Loss per Epoch - TensorFlow')
     plt.grid(True)
     plt.xticks(range(0, EPOCA + 1, 10))  # Eixo X espaçado de 10 em 10
     plt.legend()
 
     # Gráfico de acurácia
-    #plt.subplot(1, 2, 2)
+    plt.figure(figsize=(12, 6))
+    plt.subplot(1, 2, 2)
     plt.plot(range(1, EPOCA + 1), accuracies, marker='o', linestyle='-', color='b', label='Accuracy')
-    plt.xlabel('Época')
-    plt.ylabel('Acurácia')
-    plt.title('Acurácia por Época')
+    plt.xlabel('Epoch')
+    plt.ylabel('Accuracy')
+    plt.title('Accuracy per Epoch - TensorFlow')
     plt.grid(True)
     plt.xticks(range(0, EPOCA + 1, 10))  # Eixo X espaçado de 10 em 10
     plt.legend()

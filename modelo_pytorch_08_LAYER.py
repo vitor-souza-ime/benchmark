@@ -118,9 +118,9 @@ else:
     plt.figure(figsize=(12, 6))
     plt.subplot(1, 2, 1)
     plt.plot(range(1, epochs + 1), accuracies, marker='o', linestyle='-', color='b')
-    plt.xlabel('Época')
-    plt.ylabel('Acurácia')
-    plt.title('Acurácia por Época')
+    plt.xlabel('Epoch')
+    plt.ylabel('Accuracy')
+    plt.title('Accuracy per Epoch - PyTorch')
     plt.grid(True)
     plt.xticks(ticks=range(0, epochs + 1, 10))  # Eixo X espaçado de 10 em 10
     plt.yticks(np.arange(0, 1.1, 0.5))  # Eixo Y espaçado de 0.5 em 0.5
@@ -130,9 +130,9 @@ else:
     plt.figure(figsize=(12, 6))
     plt.subplot(1, 2, 1)
     plt.plot(range(1, epochs + 1), losses, marker='o', linestyle='-', color='r')
-    plt.xlabel('Época')
-    plt.ylabel('Perda')
-    plt.title('Perda (Loss) por Época')
+    plt.xlabel('Epoch')
+    plt.ylabel('Loss')
+    plt.title('Loss per Epoch - PyTorch')
     plt.grid(True)
     plt.xticks(ticks=range(0, epochs + 1, 10))  # Eixo X espaçado de 10 em 10
     plt.yticks(np.arange(0, max(losses) + 0.1, 0.5))  # Eixo Y espaçado de 0.5 em 0.5
